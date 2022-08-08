@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.layout {
+  background-color: #2A3035;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.layout header, .layout footer {
+  background-color: #22272B;
+}
+.layout h1, .reports h3 {
+  margin: 0;
+}
+.layout h1 {
+  font-size: 2em;
+}
+.layout_inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.layout_header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.layout header {
+  padding: 1.25em;
+}
+.layout footer {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Begin styling the report items here! */
+.reports {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.875em;
+}
+.reports h3 {
+  font-size: 0.875em;
+  line-height: 1.25em;
+  text-transform: uppercase;
+}
+.reports article {
+  text-align: center;
+}
+.reports article img {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+.reports a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+.reports a:hover {
+  transform: scale(1.05);
+}
+.reports a span {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .reports {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.875em;
+  }
+}
