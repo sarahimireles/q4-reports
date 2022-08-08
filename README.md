@@ -2,16 +2,23 @@
 
 ## Front-end Developer Assessment
 
-Welcome,
-Please find in this repository my solution to the Technical Test.
+### Welcome.
+
+#### Please find in this repository my solution to the Technical Test.
 
 Some changes you will see are:
 
 -Typo fixed in the main.js file, at the end of line 8
+
 -Changes on the main.css file, where I have changed:
-    -the type of selectors >> instead of "#" to "." as it is not always recommendable to use "#" if avoidable
+    
+    -the type of selectors >> instead of "#" to "." as 
+    it is not always recommendable to use "#" if avoidable
+
     -naming on the selectors to match the elements being styled
+
     -styles for the report to show appropriately as required, including the responsive
+
     -the code was tested for IE and Edge using BitBar(Live Browser Testing) with the URL provided by CodePen Live view, which showed no issues
 
 ----
